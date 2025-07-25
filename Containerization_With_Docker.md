@@ -1,4 +1,4 @@
-Docker is an **open platform for developing, shipping, and running applications**. It enables you to **package and run an application in a loosely isolated environment called a container**. This isolation and security allow you to run many containers simultaneously on a given host. Docker streamlines the development lifecycle by letting developers work in standardized environments using local containers, which are excellent for **continuous integration and continuous delivery (CI/CD) workflows**.
+
 
 ### Introduction to Docker and Containerization
 
