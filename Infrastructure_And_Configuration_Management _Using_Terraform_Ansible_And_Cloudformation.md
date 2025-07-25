@@ -1,6 +1,3 @@
-This document provides a comprehensive guide to Infrastructure as Code (IaC), focusing on **Terraform**, **Ansible**, and **AWS CloudFormation**. It covers foundational concepts, detailed explanations of each tool with code examples, advanced topics, and best practices, aiming to equip you with the knowledge required for a 3-5 years experience interview in this domain.
-
----
 
 ## 1. Introduction to Infrastructure as Code (IaC)
 
