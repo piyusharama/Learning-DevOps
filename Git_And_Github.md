@@ -60,6 +60,9 @@ git config --list
 
 This section covers the fundamental commands for managing a Git repository on your local machine.
 
+<img width="500" height="367" alt="image" src="https://github.com/user-attachments/assets/fe3e8134-0081-43be-982c-24f655c62403" />
+
+
 #### 3.1. Initializing a Repository
 To start tracking changes for a project, you need to initialize a Git repository within your project folder.
 
@@ -423,6 +426,8 @@ git remote -v
 ### 7. Branching and Merging
 
 **Branching allows you to diverge from the main line of development and continue work without messing up that main line**. It's like creating a separate timeline for your project.
+
+<img width="500" height="281" alt="image" src="https://github.com/user-attachments/assets/fef3fcdb-00a8-49fe-83ae-886c7351c9e7" />
 
 #### 7.1. Creating a Branch
 **Simple Example (Code):**
