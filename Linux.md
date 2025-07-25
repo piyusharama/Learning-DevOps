@@ -1,5 +1,5 @@
 
-### **I. Fundamentals: Understanding the Internet and Servers**
+### **1. Fundamentals: Understanding the Internet and Servers**
 
 Before diving into Linux, it's crucial to grasp the underlying infrastructure of the internet and the role of servers, as DevOps engineers often work with distributed systems.
 
