@@ -1,6 +1,3 @@
-This guide aims to provide a comprehensive and detailed understanding of Linux for DevOps, covering fundamental concepts, essential commands, and advanced topics like Logical Volume Management (LVM) and text processing tools. The goal is to equip you with the knowledge and practical insights necessary to excel in a DevOps role and prepare for interviews, including those for 3-5 years of experience.
-
----
 
 ### **I. Fundamentals: Understanding the Internet and Servers**
 
