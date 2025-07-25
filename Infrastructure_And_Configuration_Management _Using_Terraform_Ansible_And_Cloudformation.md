@@ -33,6 +33,8 @@ IaC tools generally fall into two broad categories:
 
 **Terraform** is an open-source and cloud-agnostic Infrastructure as Code (IaC) software tool created by HashiCorp. It allows users to define and provision data center infrastructure using a declarative configuration language known as HashiCorp Configuration Language (HCL), or optionally JSON.
 
+<img width="500" height="222" alt="image" src="https://github.com/user-attachments/assets/e293495e-e8fc-4d41-97ca-02740e7cace9" />
+
 ### Key Features and Benefits
 *   **Cloud Agnostic / Multi-Cloud Support**: Terraform can provision and manage resources across various cloud platforms (AWS, Azure, GCP) and on-premises environments via "providers". It supports over 3,000 providers.
 *   **Declarative Configuration**: Users describe the desired state of their infrastructure, and Terraform manages it.
@@ -556,6 +558,8 @@ Terraform errors can be categorized as:
 Ansible is built on the concept of a **control node** and a **managed node**.
 *   **Control Node**: Where Ansible is executed from (e.g., where a user runs `ansible-playbook` command).
 *   **Managed Nodes**: The devices being automated (e.g., a Microsoft Windows server).
+
+<img width="500" height="345" alt="image" src="https://github.com/user-attachments/assets/c9931dcb-9854-4a49-91fa-b326b2a1ee6e" />
 
 #### 3.1.2 Installation
 Ansible can be installed on various operating systems. Once installed, its command-line tools can be used.
