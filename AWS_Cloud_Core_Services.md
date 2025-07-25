@@ -18,6 +18,9 @@ AWS operates globally through **Regions** and **Availability Zones (AZs)**.
 *   **Availability Zone (AZ)**: A region typically consists of multiple isolated physical data centers within a single geographic region. These are designed to be independent (e.g., separate power, cooling, physical security) to prevent single points of failure and ensure high availability. AZs are denoted as 1a, 1b, 1c, etc., within a region.
 
 **Cloud Deployment Models**:
+
+<img width="500" height="279" alt="image" src="https://github.com/user-attachments/assets/ffb13691-6b74-41bb-94cd-196dfb17db92" />
+
 *   **Public Cloud**: Services are delivered over the public internet and can be used by anyone.
 *   **Private Cloud**: Resources are used exclusively by a single organization, either on-premises or hosted by a third-party.
 *   **Hybrid Cloud**: A mix of public and private cloud environments, allowing data and applications to be shared between them.
@@ -112,6 +115,9 @@ You will be prompted to enter:
     *   **Spot Instances**: Bid on unused EC2 capacity, offering significant cost savings but can be interrupted by AWS, suitable for fault-tolerant workloads.
 
 **Security and Networking**:
+
+<img width="500" height="530" alt="image" src="https://github.com/user-attachments/assets/17bb2dde-440f-4887-8288-3fc87ac8a587" />
+
 *   **Security Groups**: Act as **virtual firewalls** for instances, controlling inbound and outbound traffic based on rules (ports, IP addresses). By default, all inbound traffic is denied, and all outbound traffic is allowed.
 *   **Key Pairs**: Used to **securely access EC2 instances remotely** via SSH. When you create a key pair, a `.pem` file (private key) is downloaded, which you use for authentication.
 *   **Public IP vs. Elastic IP**:
@@ -1237,48 +1243,6 @@ This section consolidates various scenarios and common AWS architectural pattern
 
 ***
 
-### 12. Infrastructure as Code (IaC) Tools
-
-#### 12.1 Terraform
-
-**Terraform** is an **open-source Infrastructure as Code (IaC) tool** that allows you to **define, manage, and provision desired state of your infrastructure, and Terraform handles the steps to achieve it.
-*   **Terraform State File (`.tfstate`)**: Maintains the state of resources managed by Terraform, tracking the actual state of the infrastructure. This file is crucial for modifications and prevents unintended changes. It can be stored locally or remotely (e.g., in an S3 bucket for collaboration and locking).
-*   **Workflow**:
-    1.  **`terraform init`**: Initializes a*   **Variables**: Parameterize configurations, making them flexible and reusable across environments. Sensitive information should be stored in environment variables or external systems like AWS Secrets Manager.
-*   **Modules**: Reusable sets of configurations that can create multiple resources with a consistent setup.
-*   **Workspaces**: Manage multiple environments (dev, prod) with the same configuration but separate state files.
-*   **Versioning**: Use version control systems like Git to track changes to Terraform configurations [  **Install and Configure Terraform CLI**:
-    *   Download and install Terraform CLI from HashiCorp website.
-    *   Ensure your AWS CLI is configured with credentials (as shown in section 2) so Terraform can interact with AWS.
-
-2.  **Create Terraform Configuration File (`main.tf`)**:
-    *   Create a directory (e.g., `my-terraform-project`) and inside it, create `main.tf`:
-        ```terraform
-        # main.tf
-        provider "aws" {
-          region = "eu-north-1" # Replace with your desired AWS region
-           `region`: Specifies the AWS region for resource deployment.
-        *   `resource "aws_instance" "my_server"`: Defines an EC2 instance resource. `aws_instance` is the resource type, `my_server` is the local name.
-        *   `ami`: The Amazon Machine Image ID to use. **Replace with a valid AMI ID for your region**.
-        *   `instance_type`: The desired instance type.
-        *   `tags`: Assigns a `Name` tag to the0 to destroy").
-
-5.  **Apply Infrastructure Changes (Create)**:
-    *   Run `terraform apply`.
-    *   Terraform will show the plan again and ask for confirmation. Type `yes` and press Enter.
-    *   Terraform will provision the EC2 instance in your AWS account.
-    *   Verify in the EC2 Dashboard: An instance named `MyServer` should be running. A `terraform.tfstate` file will also be created locally Type `yes` when prompted.
-    *   Verify in EC2 Dashboard: The instance name should update to `MyWebServer`. Terraform identifies the change and modifies the existing resource rather than recreating it.
-
-7.  **Destroy Infrastructure**:
-    *   Run `terraform destroy`.
-    *   Terraform will show what resources will be destroyed. Type `yes` and press Enter.
-    *   Verify in EC2 Dashboard: The instance will be terminated/deleted experience, **extensive hands-on practice, deep dives into AWS documentation, and working on real-world projects are essential**. This document serves as a robust foundation and a roadmap for your learning journey.
-
-***
-
 **Analogy to solidify understanding:**
 
 Think of managing AWS resources without IaC as building a house brick by brick, placing each window and door by hand every time you want a new house. It's time-consuming, prone to errors, and inconsistent.
-
-**Infrastructure as Code (IaC) with tools like CloudFormation or Terraform** is like having a detailed architectural blueprint (your template/code) and automated of automation and consistency is key to succeeding in modern cloud environments.
