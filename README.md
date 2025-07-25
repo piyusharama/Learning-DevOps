@@ -16,7 +16,7 @@ This repository contains a comprehensive collection of DevOps and Cloud notes st
 | 🧪 [CI/CD using Jenkins](CICD_20using_20Jenkins.md) | Jenkins pipelines, plugin management, and integration |
 | 🐙 [Git and GitHub](Git_20and_20Github.md) | Git fundamentals, branching, GitHub collaboration |
 | 🖥️ [Shell Scripting](Shell_20Scripting.md) | Bash scripting, conditionals, loops, automation scripts |
-| 📈 [Monitoring](Monitering.md) | Tools like Prometheus, Grafana, ELK stack (Spelling inside file: `Monitering`) |
+| 📈 [Monitoring](Monitering.md) | Tools like Prometheus, Grafana, ELK stack |
 
 ---
 
