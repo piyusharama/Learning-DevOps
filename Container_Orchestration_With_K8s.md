@@ -15,7 +15,7 @@ While Docker allows you to package applications into containers, a single Docker
 **Kubernetes Architecture: The Master-Worker Model**
 Kubernetes clusters typically operate on a master-node architecture, though single-node setups are possible for development. The architecture is divided into two main parts:
 
-https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F9iy7zu2japgj6acuv4yf.png
+<img width="500" height="418" alt="image" src="https://github.com/user-attachments/assets/5d5b2f81-7ec9-4f63-bb30-6cfdc6b13335" />
 
 *   **Control Plane (Master Node Components)**: These components make global decisions about the cluster and detect and respond to cluster events. They manage the worker nodes and the Pods running on them.
     *   **API Server (`kube-apiserver`)**: The heart of Kubernetes, it exposes the Kubernetes API. All communication with the cluster, whether from `kubectl` or other components, goes through the API server. It acts as the front end for the control plane.
