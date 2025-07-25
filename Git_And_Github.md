@@ -1,6 +1,3 @@
-This comprehensive guide is designed to take you from a basic understanding of Git and GitHub to a level where you can confidently discuss and apply version control concepts relevant to a 3-5 years experience interview. We will cover theoretical concepts, provide simple code examples, and suggest "Do It Yourself" (DIY) coding exercises with explanations.
-
-***
 
 ## Git and GitHub: From Zero to Hero
 
