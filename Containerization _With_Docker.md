@@ -15,6 +15,8 @@ Furthermore, Docker makes the **deployment and development process more efficien
 #### Docker vs. Virtual Machines (VMs)
 While both Docker and VMs are virtualization technologies used for application deployment, they differ significantly in their approach and resource utilization.
 
+<img width="500" height="250" alt="image" src="https://github.com/user-attachments/assets/07ec13fe-7de2-4e88-835e-f0b112ee705e" />
+
 *   **Virtual Machines (VMs):**
     *   **Objective:** VMs were designed to allow multiple operating systems to run on a single physical machine, abstracting hardware details.
     *   **Architecture:** Each VM runs its **own kernel and guest operating system** (OS), along with applications and their dependencies. A hypervisor coordinates between the hardware and the VM.
@@ -34,6 +36,9 @@ While both Docker and VMs are virtualization technologies used for application d
 ### Core Components and Terminology
 
 Understanding these components is fundamental to working with Docker:
+
+<img width="500" height="264" alt="image" src="https://github.com/user-attachments/assets/f58213e7-2781-4efd-a3f0-1c8a5858c66c" />
+
 
 *   **Docker Engine:** This is a client-server application that powers Docker.
     *   **Docker Daemon (`dockerd`):** A persistent background process that listens for Docker API requests and manages Docker objects like images, containers, networks, and volumes. It can also communicate with other daemons to manage Docker services. The daemon runs as a root user by default.
