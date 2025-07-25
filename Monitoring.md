@@ -1,5 +1,5 @@
 
-### I. Introduction to DevOps Monitoring
+### 1. Introduction to DevOps Monitoring
 
 In today's fast-paced digital landscape, the widespread adoption of DevOps practices has driven the demand for efficient, reliable, and scalable software delivery. DevOps inherently aims to **bridge the gap between development and operations teams**, fostering collaboration, automation, and continuous feedback throughout the software development lifecycle. A cornerstone for the successful implementation of DevOps is **effective monitoring**.
 
