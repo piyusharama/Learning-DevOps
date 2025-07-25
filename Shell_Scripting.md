@@ -1,8 +1,5 @@
-This guide is designed to take you from the very basics of shell scripting to an advanced level, equipping you with the knowledge and practical skills necessary to automate workflows, troubleshoot systems, and excel in roles requiring 3-5 years of experience in Bash scripting, such as a DevOps engineer or system administrator. It draws extensively from the provided sources to offer a comprehensive "zero to hero" journey.
 
----
-
-#### 1. Introduction to Shell Scripting
+### 1. Introduction to Shell Scripting
 
 **Definition and Purpose**
 A **shell script** is a file containing a sequence of commands that are executed line by line by a **Bash program**. It's essentially a text file with a list of instructions for an operating system to perform specific tasks. Shell scripting is heavily relied upon in Linux for process automation, allowing you to create a file with a series of commands that can be executed together. This enables you to perform actions like navigating directories, creating folders, and launching processes via the command line. By saving these commands in a script, you can repeat the same sequence of steps multiple times by simply running the script.
