@@ -1,6 +1,3 @@
-This document provides a comprehensive guide to key AWS services and DevOps concepts, drawing on the provided sources. It aims to build your understanding from fundamental principles to more advanced topics, with explanations, practical examples, and insights relevant for interviews requiring 3-5 years of experience.
-
-***
 
 ### 1. Introduction to Cloud Computing & AWS Fundamentals
 
