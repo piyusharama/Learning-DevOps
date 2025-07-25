@@ -15,19 +15,19 @@ This repository contains **concise yet comprehensive Markdown notes** covering e
 
 ---
 
-## 📂 Topics Covered
+## 📂 Topics Covered (In Learning Path Order)
 
 | Category | Description |
 |----------|-------------|
+| 🌐 [Computer Networking](Networking.md) | OSI model, TCP/IP, DNS, Load Balancing, NAT, Firewalls, VPC fundamentals |
 | 🖥️ [Linux](Linux.md) | Basic to advanced Linux commands, user management, permissions, and scripting essentials |
-| 🌐 [Networking](Networking.md) | OSI model, TCP/IP, DNS, Load Balancing, NAT, Firewalls, VPC fundamentals |
+| 💻 [Shell Scripting](Shell_Scripting.md) | Bash scripting fundamentals, loops, conditionals, and task automation |
+| 🐙 [Git and GitHub](Git_And_Github.md) | Git basics, branching strategy, pull requests, rebase, merge, stash, and GitHub workflow |
 | ☁️ [AWS Cloud Core Services](AWS_Cloud_Core_Services.md) | Core AWS services like EC2, IAM, S3, Lambda, CloudWatch, VPC, RDS, and CLI usage |
 | 🐳 [Containerization with Docker](Containerization_With_Docker.md) | Docker installation, images, containers, Dockerfiles, volumes, and networking |
 | ☸️ [Kubernetes (K8s)](Container_Orchestration_With_K8s.md) | Core concepts like Pod, ReplicaSet, Deployment, Services, Ingress, Volumes, StatefulSets, and Helm Charts |
-| ⚙️ [Infrastructure Management](Infrastructure_And_Configuration_Management_Using_Terraform_Ansible_And_Cloudformation.md) | Infrastructure as Code using Terraform, Ansible, and AWS CloudFormation |
 | 🧪 [CI/CD using Jenkins](CICD_Using_Jenkins.md) | Jenkins setup, freestyle vs pipeline jobs, integration with GitHub, Docker, and Kubernetes |
-| 🐙 [Git and GitHub](Git_And_Github.md) | Git basics, branching strategy, pull requests, rebase, merge, stash, and GitHub workflow |
-| 🖥️ [Shell Scripting](Shell_Scripting.md) | Bash scripting fundamentals, loops, conditionals, and task automation |
+| ⚙️ [Infrastructure as Code (IaC)](Infrastructure_And_Configuration_Management_Using_Terraform_Ansible_And_Cloudformation.md) | Infrastructure as Code using Terraform, Ansible, and AWS CloudFormation |
 | 📈 [Monitoring](Monitoring.md) | Tools and practices: Prometheus, Grafana, ELK Stack, metrics, and alerting strategies |
 
 ---
