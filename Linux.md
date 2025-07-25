@@ -64,6 +64,9 @@ There are several ways to run or access a Linux environment:
     *   **SSH (Secure Shell)**: For secure command-line access, which is the primary method for DevOps.
 
 #### **D. Linux Architecture**
+
+<img width="500" height="354" alt="image" src="https://github.com/user-attachments/assets/c8e3ad12-a6c4-4318-8a0e-0dd378b6e05f" />
+
 Every operating system has a "heart" or core component called the **Kernel**.
 *   **Kernel**: It's the central part of the OS, containing the coding files, programs, and processes required to run the entire operating system. The Linux kernel was created by Linus Torvalds in 1991.
 *   **Shell**: Since the kernel is written in C programming, and most users don't know C, a **shell** acts as an interface or gateway between you and the kernel. You interact with the shell by typing **shell commands** (e.g., `mkdir` to create a folder), and the shell then communicates with the kernel to execute your request. The terminal is where you interact with the shell.
@@ -73,6 +76,9 @@ Every operating system has a "heart" or core component called the **Kernel**.
 The Linux system architecture can be visualized as a flow: **Applications** interact with the **Shell**, which communicates with the **Kernel**, and the **Kernel** then manages the **Hardware** (e.g., disk, RAM, CPU, printer, scanner).
 
 #### **E. Linux File System Hierarchy**
+
+<img width="500" height="517" alt="image" src="https://github.com/user-attachments/assets/892bc400-bdee-4094-a4eb-feb717280d04" />
+
 In Linux, **everything starts from the root folder (`/`)**. This is analogous to the "C drive" in Windows.
 Key directories within the root folder include:
 *   `/home`: Contains user home directories (e.g., `/home/ubuntu`, `/home/jethalal`).
