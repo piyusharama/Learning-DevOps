@@ -1,6 +1,4 @@
 
-## Git and GitHub: From Zero to Hero
-
 ### 1. Understanding Version Control and Git
 
 In computer science, **a data structure is a data organization and storage format that is usually chosen for efficient access to data**. More precisely, **a data structure is a collection of data values, the relationships among them, and the functions or operations that can be applied to the data**. A Git repository itself can be seen as a complex data structure that meticulously tracks the history and relationships of your project's files over time.
