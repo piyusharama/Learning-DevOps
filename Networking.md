@@ -92,6 +92,9 @@ Networks are typically managed by the organizations that own them.
 #### 3.1 OSI Model (Open Systems Interconnection Model)
 The **OSI model** is a standardized, **seven-layer framework** that defines how data moves through a network. Each layer has specific responsibilities, interacting with the layers directly above and below it, encapsulating and transmitting data. While the modern internet primarily uses the TCP/IP model, the OSI model remains foundational for understanding network operations and troubleshooting.
 
+<img width="500" height="332" alt="image" src="https://github.com/user-attachments/assets/776dbe3b-f06a-4592-881b-06069e9efcad" />
+
+
 The seven layers of the OSI model, from top to bottom, are:
 1.  **Application Layer (Layer 7):** Serves as the interface between **end-user applications** and network services. Protocols include HTTP, FTP, SMTP, and DNS. *(Think of Sachin and Seema playing PUBG, an application for end-users).*
 2.  **Presentation Layer (Layer 6):** Responsible for **translating data** between the application layer and the network format. It handles data formatting, encryption, and compression. *(They presented themselves nicely after getting the opportunity).*
