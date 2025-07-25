@@ -2,8 +2,6 @@ This guide is designed to take you from the very basics of shell scripting to an
 
 ---
 
-### Shell Scripting: From Zero to Hero
-
 #### 1. Introduction to Shell Scripting
 
 **Definition and Purpose**
