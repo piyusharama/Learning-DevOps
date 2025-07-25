@@ -1,6 +1,3 @@
-This guide provides a comprehensive overview of Jenkins, detailing its core concepts, practical implementation through examples, and best practices. It's structured to take you from foundational knowledge to advanced topics, equipping you with the expertise needed to excel in CI/CD roles, potentially preparing you for 3-5 years of experience interviews.
-
-***
 
 ### 1. Introduction to Jenkins and CI/CD
 
