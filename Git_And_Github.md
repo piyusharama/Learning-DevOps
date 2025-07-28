@@ -40,8 +40,8 @@ After installation, you need to configure your username and email, which will be
 
 **Simple Example (Code):**
 ```bash
-git config --global user.name "Paul Philip"
-git config --global user.email "paul.philip@example.com"
+git config --global user.name "Jane Doe"
+git config --global user.email "jane.doe@example.com"
 ```
 **Explanation:**
 *   `git config`: Used to set Git configuration values.
