@@ -81,7 +81,7 @@ The Linux system architecture can be visualized as a flow: **Applications** inte
 
 In Linux, **everything starts from the root folder (`/`)**. This is analogous to the "C drive" in Windows.
 Key directories within the root folder include:
-*   `/home`: Contains user home directories (e.g., `/home/ubuntu`, `/home/jethalal`).
+*   `/home`: Contains user home directories (e.g., `/home/ubuntu`, `/home/John`).
 *   `/usr`: User programs and binaries.
 *   `/bin`: Essential command binaries.
 *   `/etc`: System-wide configuration files (e.g., `/etc/passwd` for users, `/etc/group` for groups).
@@ -784,17 +784,17 @@ Effective user and group management is essential for security and resource contr
 
 1.  **`useradd`**
     *   **Theory**: Creates a new user account.
-    *   **Simple Example**: `sudo useradd -m jethalal` (creates user `jethalal` and their home directory `/home/jethalal`).
+    *   **Simple Example**: `sudo useradd -m John` (creates user `John` and their home directory `/home/John`).
     *   **DIY Code Explanation**: The `-m` flag is important to ensure a home directory is created. Without `sudo`, this command will result in "Permission denied".
 
 2.  **`passwd`**
     *   **Theory**: Sets or changes a user's password.
-    *   **Simple Example**: `sudo passwd jethalal` (prompts for a new password for `jethalal`).
+    *   **Simple Example**: `sudo passwd John` (prompts for a new password for `John`).
     *   **DIY Code Explanation**: You need `sudo` privileges to set passwords for other users.
 
 3.  **`su`** (Switch User)
     *   **Theory**: Allows you to switch to another user account.
-    *   **Simple Example**: `su jethalal` (switches to `jethalal` user, requiring their password).
+    *   **Simple Example**: `su John` (switches to `John` user, requiring their password).
     *   **DIY Code Explanation**: After switching, the prompt changes to reflect the new user. Use `exit` to return to the previous user.
 
 4.  **`exit`**
@@ -809,7 +809,7 @@ Effective user and group management is essential for security and resource contr
 
 6.  **`userdel`**
     *   **Theory**: Deletes a user account.
-    *   **Simple Example**: `sudo userdel jethalal` (deletes the user `jethalal`).
+    *   **Simple Example**: `sudo userdel John` (deletes the user `John`).
     *   **DIY Code Explanation**: You need `sudo` for this. To remove the user's home directory as well, use `userdel -r`.
 
 7.  **`groupadd`**
@@ -824,7 +824,7 @@ Effective user and group management is essential for security and resource contr
 
 9.  **`gpasswd`**
     *   **Theory**: Used to administer the `/etc/group` file, primarily to add or remove users from groups.
-    *   **Simple Example (Add single user to group)**: `sudo gpasswd -a jethalal devops` (adds user `jethalal` to group `devops`).
+    *   **Simple Example (Add single user to group)**: `sudo gpasswd -a John devops` (adds user `John` to group `devops`).
     *   **Simple Example (Add multiple users to group)**: `sudo gpasswd -M "ayer,tappu,bhide" testers` (adds users `ayer`, `tappu`, and `bhide` to group `testers`).
     *   **DIY Code Explanation**: This is an efficient way to manage group memberships, especially for large organizations.
 
@@ -898,11 +898,11 @@ File permissions in Linux control who can read, write, or execute a file or dire
     *   **Simple Example**:
         ```bash
         touch my_document.txt
-        sudo chown jethalal my_document.txt # Change owner to jethalal
+        sudo chown John my_document.txt # Change owner to John
         ls -l my_document.txt
-        # Output: -rw-rw-r-- 1 jethalal ubuntu ... my_document.txt
+        # Output: -rw-rw-r-- 1 John ubuntu ... my_document.txt
         ```
-    *   **DIY Code Explanation**: You can also change both user and group owner: `sudo chown jethalal:devops my_document.txt`.
+    *   **DIY Code Explanation**: You can also change both user and group owner: `sudo chown John:devops my_document.txt`.
 
 5.  **`chgrp`** (Change Group Ownership)
     *   **Theory**: Changes the group owner of a file or directory.
