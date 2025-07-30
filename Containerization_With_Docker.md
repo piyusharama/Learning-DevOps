@@ -114,6 +114,20 @@ COPY . .
 # Set the default command to run the application
 CMD ["flask", "run", "--debug"] 
 ```
+**Add flask to requirements.txt:**
+```
+echo "flask" > requirements.txt
+```
+**Create app.py:**
+```
+from flask import Flask
+
+app = Flask(__name__)
+
+@app.route("/")
+def home():
+    return "Hello, world!"
+```
 
 **Key Dockerfile Instructions and Best Practices:**
 
